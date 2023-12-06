@@ -11,7 +11,7 @@ import io.cucumber.testng.CucumberOptions;
         monochrome = true,
         dryRun = false,
         plugin = {"pretty", "html:target/cucumber2.html"},
-        tags = "@test2"
+        tags = "@test"
 )
 public class MainRunner extends AbstractTestNGCucumberTests {
     /*@Override
