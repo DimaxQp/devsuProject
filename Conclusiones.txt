@@ -1,0 +1,12 @@
+Sobre el proyecto:
+- Este proyecto esta construido y desarrollado con Java, Selenium WebDriver, Maven y TestNG bajo el patron de diseño POM (Page Object Model)
+
+Conclusiones:
+- Se consideraron 03 casos de prueba exitosos los cuales son:
+	test1. Validacion de carrito de compras seleccionando 01 telefono
+	test2. Validacion de carrito de compras seleccionando 02 telefonos diferentes
+	test3. Validacion de carrito de compras seleccionando 02 productos iguales
+Dando como conclusion la ejecucion exitosa de los 03 casos de prueba señalados previamente.
+
+Hallazgos:
+- En el momento de verificar los productos en el carrito de compras se puede notar que los elementos empiezan a listarse uno tras otro, lo cual fue un reto ya que se tuvo que crear un metodo para que pueda esperar X cantidad de elementos con el mismo locator.
