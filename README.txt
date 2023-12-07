@@ -15,10 +15,15 @@ Implementación:
 4) Instalar y configurar Maven desde el siguiente enlace: https://maven.apache.org/download.cgi
 
 Ejecución:
-- Opción 1:
- Abrir terminal desde Intellij IDEA y ejecutar el comando: mvn clean test o mvn test -Dcucumber.filter.tags="@test"
-- Opción 2:
- Ejecutar archivo ejecutarTests.cmd
+- Para E2E:
+    Ejecutar clase SeleniumRunner.java, ubicado en "src/test/java/runners/SeleniumRunner.java"
+- Para Apis:
+    Ejecutar clase KarateRunner.java, ubicado en "src/test/java/runners/KarateRunner.java" o ejecutar comando "mvn test -Dtest=KarateRunner" desde el terminal
 
 Reporte de ejecución:
-- Abrir el acceso directo cucumber2.html
+- Para E2E:
+    Abrir acceso directo selenium-report.html
+    Archivo original ubicado en "../devsuProject/target"
+- Para Apis:
+    Abrir acceso directo karate-report.html
+    Archivo original ubicado en "../devsuProject/target/karate-reports"

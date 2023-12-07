@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91f408ce-ea34-4b60-80ef-af24066c2dcf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/KarateRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/karate/AuthDemoblaze.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cucumber2.html.lnk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejecutarTests.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/MainRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/SeleniumRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/base/CompraProductos.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/selenium/CompraProductos.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,22 +44,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Usuario/Documents/automatizacion"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/Documents/automatizacion/devsuProject/src/test/java/stepDefinitions/apis&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Usuario\Documents\automatizacion\devsuProject\src\main\java\pageObjects" />
       <recent name="C:\Users\Usuario\Documents\automatizacion\devsuProject\src" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\Documents\automatizacion\devsuProject\src\test\resources\features\apis" />
+      <recent name="C:\Users\Usuario\Documents\automatizacion\devsuProject\src\test\java\apis" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="runners" />
+    </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Validacion de carrito de compras seleccionando 02 telefonos diferentes">
+  <component name="RunManager" selected="TestNG.SeleniumRunner">
     <configuration name="Scenario: Validacion de carrito de compras seleccionando 01 telefono" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/base/CompraProductos.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/selenium/CompraProductos.feature" />
       <option name="GLUE" value="stepDefinitions.base" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="devsuProject" />
@@ -67,15 +86,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Validacion de carrito de compras seleccionando 02 productos iguales" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Validar inicio de sesion correcto" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/base/CompraProductos.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/karate/LoginDemoblaze.feature" />
       <option name="GLUE" value="stepDefinitions.base" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="devsuProject" />
-      <option name="NAME_FILTER" value="^Validacion de carrito de compras seleccionando 02 productos iguales$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validacion de carrito de compras seleccionando 02 productos iguales$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Validacion de carrito de compras seleccionando 02 productos iguales" />
+      <option name="NAME_FILTER" value="^Validar inicio de sesion correcto$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validar inicio de sesion correcto$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Validar inicio de sesion correcto" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -87,31 +106,63 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Validacion de carrito de compras seleccionando 02 telefonos diferentes" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/base/CompraProductos.feature" />
-      <option name="GLUE" value="stepDefinitions.base" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="KarateRunner.testKarate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="devsuProject" />
-      <option name="NAME_FILTER" value="^Validacion de carrito de compras seleccionando 02 telefonos diferentes$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Validacion de carrito de compras seleccionando 02 telefonos diferentes$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Validacion de carrito de compras seleccionando 02 telefonos diferentes" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="runners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.KarateRunner" />
+      <option name="METHOD_NAME" value="testKarate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="devsuProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.MainRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="devsuProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.SeleniumRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Validacion de carrito de compras seleccionando 02 telefonos diferentes" />
+        <item itemvalue="TestNG.SeleniumRunner" />
         <item itemvalue="Cucumber Java.Scenario: Validacion de carrito de compras seleccionando 01 telefono" />
-        <item itemvalue="Cucumber Java.Scenario: Validacion de carrito de compras seleccionando 02 productos iguales" />
+        <item itemvalue="JUnit.KarateRunner.testKarate" />
+        <item itemvalue="TestNG.MainRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Validar inicio de sesion correcto" />
       </list>
     </recent_temporary>
   </component>
@@ -125,5 +176,8 @@
       <updated>1701814500152</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.feature" />
   </component>
 </project>
